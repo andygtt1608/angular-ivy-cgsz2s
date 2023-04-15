@@ -1,0 +1,22 @@
+<table>
+  <tr>
+    <th>No.</th>
+    <th>No.</th>
+    <th>Estados</th>
+    <th>Abreviacion</th>
+    <th>Poblacion</th>
+    <th>Poblacion Maxima</th>
+    <th>Poblacion Minima</th>
+    <th>Poblacion Co.</th>
+  </tr>
+  <tr *ngFor="let i of array">
+    <td>{{ i.cvegeo }}</td>
+    <td>{{ i.cve_agee }}</td>
+    <td>{{ i.nom_agee }}</td>
+    <td>{{ i.nom_abrev }}</td>
+    <td>{{ i.pob }}</td>
+    <td>{{ i.pob_fem }}</td>
+    <td>{{ i.pob_mas }}</td>
+    <td>{{ i.viv }}</td>
+  </tr>
+</table>
